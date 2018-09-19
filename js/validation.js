@@ -2,7 +2,7 @@ function validateRegForm()
 {
 	var email = document.getElementById("email");
 	var pass = document.getElementById("password");
-	var pass2 = document.getElementById("password");
+	var pass2 = document.getElementById("password2");
 	et = email.value.indexOf("@");
 	dot = email.value.lastIndexOf(".");
 	document.getElementById("result").innerHTML = dot;

@@ -21,6 +21,7 @@ $(document).ready(() => {
 
 
 function getMovies(searchText){
+  document.getElementById("movies").innerHTML = "";
   axios.get('http://www.omdbapi.com/?apikey=b3f632a8&s='+searchText)
     .then((response) => {
       console.log(response);
